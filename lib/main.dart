@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Diseños/home_diseño.dart'; // Importamos la pantalla principal
+import 'Diseños/home_diseño.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           bodyMedium: TextStyle(fontSize: 18),
         ),
       ),
-      home: const HomeDiseno(), // La pantalla principal de tu app
+      home: const HomeDiseno(),
     );
   }
 }
